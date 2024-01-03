@@ -4,12 +4,12 @@ ___
 
 Description
 ---
-This is app is for DCU students looking to share a ride with other DCU students built using Django and React Native (expo-cli and TypeScript).
+This app is for DCU students looking to share a ride with other DCU students built using Django and React Native (expo-cli and TypeScript).
 Students can select to go from DCUs campuses to a location or from a location to one of DCUs campuses. Students meet up with other students based on their interests/constraints, such as no smoking, or an interest in talking about sport.
 The intention of the app is to give students another way to socialise and to get to or from DCU.
 
-How it works, drivers would first input their start and destination, then their interests/constraints,
-then the app takes that information and shows these drivers to passengers based on both of their interests/constraints, showing the optimal routes.
+How it works, drivers would first input their current location and destination, then their interests/constraints,
+then the app takes that information and shows drivers to passengers related to their interests/constraints, showing the optimal routes.
 The passenger would then pick a driver based on those routes and interests/constraints and a request would be sent to the driver which can be accepted or denied.
 When a driver accepts a request a ride is shared.
 
